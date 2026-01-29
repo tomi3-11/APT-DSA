@@ -137,6 +137,21 @@ class scores{
 	}
     }
 
+    // An algorithm for pass and fail
+    void passAndFail() {
+
+	// The passmark
+	int passMark = 60;
+
+	for (int i = 0; i < sizeof(c1) / sizeof(c1[0]); ++i){
+		if (c1[i] > 59){
+			cout << c1[i] << endl;
+		} else {
+			cout << "Sorry mate, you failed." << endl;
+		}
+	}
+    }
+
 };
 
 int main(){
@@ -149,6 +164,7 @@ int main(){
     //s.mydelete();
     s.binarySearch();
     s.display();
+    s.passAndFail();
 
     return 0;
 
