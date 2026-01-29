@@ -1,14 +1,10 @@
-No worries — since canvasisn’t available on your side right now, I’ll give you **copy-paste ready content** exactly how you asked.
-You can paste this straight into a `README.md` file and it’ll work perfectly for revision 👍
-
----
-
-# 📘 Scores Class – Simple Documentation
+# Scores Class – Simple Documentation
 
 ## What this code is about (big picture)
 
 This C++ program teaches **basic array operations** using a class.
-# DSA, Tuesday 27/jan/2026
+
+## DSA, Tuesday 27/jan/2026
 
 ## Major Concepts Explained (Very Simple)
 
