@@ -42,6 +42,19 @@ class LinkedList{
             cout << endl;
         }
 
+        int search(string key){
+            Link *pcurrent = phead;
+            while (pcurrent != NULL){
+                if (pcurrent->item == key){
+                    cout << pcurrent->item << " Found" << endl;
+                    return 0;
+                }
+                pcurrent=pcurrent->pnext;
+            }
+            cout << key << " Not found" << endl;
+            return 0;
+        }
+
         // Delete function
         void pop(){
             phead=phead->pnext;
@@ -58,6 +71,7 @@ int main(){
     l1.display();
     l1.pop();
     l1.display();
+    l1.search("wWater");
 
     return 0;
 
