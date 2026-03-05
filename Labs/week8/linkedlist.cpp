@@ -39,6 +39,7 @@ class LinkedList{
                 pcurrent->displayLink();
                 pcurrent=pcurrent->pnext;
             }
+            cout << endl;
         }
 
 };
