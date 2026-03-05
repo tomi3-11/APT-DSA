@@ -42,6 +42,11 @@ class LinkedList{
             cout << endl;
         }
 
+        // Delete function
+        void pop(){
+            phead=phead->pnext;
+        }
+
 };
 
 int main(){
@@ -50,6 +55,8 @@ int main(){
     l1.insert("RAM", 1100.0);
     l1.insert("Water", 60.0);
     l1.insert("Pen", 150.0);
+    l1.display();
+    l1.pop();
     l1.display();
 
     return 0;
